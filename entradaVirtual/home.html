@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>FESTA VIP</h1>
+    <h3>Bem vindo a festa senhor(a):</h3>
+    <!-- inputs para o usuario digitar o seu nome e quem o convidou-->
+    <input type="text" name="nome" id ="nome" placeholder="digite seu nome">
+    <h3>Foi  convidado por quem ?</h3>
+    <input type="text" name="anfitriao" id="anfitriao" placeholder="quem te convidou?" >
+
+    <!--botao para chamar o método de verificação-->
+    <input type="submit" value="verificar se pode entrar" onclick="verificar()">
+
+    <h1>Permitido entrar</h1>
+    <!--texto que será modificado de acordo com a verificação, mostrando se pode entrar ou não-->
+    <p id="text">pesquisando....</p>
+
+   
+    
+</body>
+</html>
